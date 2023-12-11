@@ -5,7 +5,7 @@ Java program that simulates a vessel moving on the face of the earth. Assuming y
 the prerequisites installed you can run the program by just going :
 
 - cd <wherever you downloaded the program>
-- ./gradlew run
+- gradle run
 
 The program will simulate a boat navigating around subject to current set and drift but
 does not (currently) add leeway. The current and various starting parameters are
