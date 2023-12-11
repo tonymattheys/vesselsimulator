@@ -38,7 +38,8 @@ See below for details about setting up a property file.
 
 # Prerequisites
 
-Java of a reasonably current vintage. I use a recent build of OpenJDK for development and testing.
+- Java of a reasonably current vintage. I use a recent build of OpenJDK for development and testing.
+- A resonably up to date version of Gradle installed and accessible on your PATH
 
 # Customization
 
