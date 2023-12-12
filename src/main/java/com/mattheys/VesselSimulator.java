@@ -193,7 +193,7 @@ public class VesselSimulator {
 			public void run() {
 				try {
 					VesselSimulator window = new VesselSimulator();
-					window.frame.setVisible(true);
+					VesselSimulator.frame.setVisible(true);
 				} catch (Exception e) {
 					logger.warning(e.toString());
 				}
