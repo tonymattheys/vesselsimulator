@@ -94,7 +94,7 @@ public class VesselSimulator {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
-		logger = Logger.getLogger("com.mattheys.HelloApplicationWindow") ;
+		logger = Logger.getLogger("com.mattheys.VesselSimulator") ;
 		logger.setLevel(Level.OFF);
 		logger.info("Logging is all set up in " + VesselSimulator.class.getName()) ;
 
@@ -193,7 +193,7 @@ public class VesselSimulator {
 			public void run() {
 				try {
 					VesselSimulator window = new VesselSimulator();
-					VesselSimulator.frame.setVisible(true);
+					window.frame.setVisible(true);
 				} catch (Exception e) {
 					logger.warning(e.toString());
 				}
